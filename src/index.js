@@ -4,7 +4,7 @@ const objects = require('./objects');
 const paths = require('./paths');
 const strings = require('./strings');
 
-modules.exports = {
+module.exports = {
   envs,
   files,
   objects,
