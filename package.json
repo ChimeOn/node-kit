@@ -1,5 +1,5 @@
 {
-  "name": "node-utils",
+  "name": "node-kit",
   "version": "1.0.0",
   "description": "Common Node Utils",
   "main": "src/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ChimeOn/node-utils.git"
+    "url": "git@github.com:ChimeOn/node-kit.git"
   },
   "author": "Team ChimeOn",
   "license": "MIT",
