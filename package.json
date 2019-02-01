@@ -1,0 +1,33 @@
+{
+  "name": "node-utils",
+  "version": "1.0.0",
+  "description": "Common Node Utils",
+  "main": "src/index.js",
+  "scripts": {
+    "test:ci": "jest --watchAll --useStderr",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChimeOn/node-utils.git"
+  },
+  "author": "Team ChimeOn",
+  "license": "MIT",
+  "engine": "node >= 8.9",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "jest": "^24.0.0",
+    "jest-diff": "24.0.0",
+    "prettier": "1.16.3"
+  },
+  "jest": {
+    "modulePaths": [
+      "<rootDir>/src"
+    ],
+    "testRegex": "__tests__/.*\\.test\\.js$",
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+    ]
+  }
+}

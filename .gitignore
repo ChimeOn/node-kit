@@ -1,0 +1,11 @@
+node_modules/
+dist/
+build/
+tmp/
+*.log
+# Ignore Desktop Services-related files on OS X.
+.DS_Store
+.vscode
+coverage
+.env
+.vscode
