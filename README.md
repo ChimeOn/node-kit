@@ -2,7 +2,6 @@
 
 - envs - Load from json, .env files, or serverless files
   - a single way to sync files for serverless, jest and local
-  - Use something like: https://github.com/rolodato/dotenv-safe
 
 - objects, arrays:
   - arrays, sorting, hash functions
