@@ -4,7 +4,7 @@
   "description": "Common Node Utils",
   "main": "src/index.js",
   "scripts": {
-    "test:ci": "jest --watchAll --useStderr",
+    "test:watch": "jest --watchAll --useStderr",
     "test": "jest"
   },
   "repository": {
@@ -16,10 +16,10 @@
   "engine": "node >= 8.9",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.12.1",
-    "jest": "^24.0.0",
+    "eslint": "^5.13.0",
+    "jest": "^24.1.0",
     "jest-diff": "24.0.0",
-    "prettier": "1.16.3"
+    "prettier": "1.16.4"
   },
   "jest": {
     "modulePaths": [
